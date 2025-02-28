@@ -151,8 +151,20 @@ const Platzi = () => {
               <button onClick={handleDelete}> delete</button>
             </div>
           ))}
-        <button> hello</button>
       </div>
+      <button
+        style={{
+          color: "blue",
+          borderRadius: "12px",
+          width: "110px",
+          height: "40px",
+          backgroundColor: "grey",
+          textAlign: "center",
+        }}
+      >
+        {" "}
+        hero
+      </button>
     </div>
   );
 };
