@@ -1,0 +1,38 @@
+.container {
+  margin: 0 auto;
+  width: 300px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.underline {
+  height: 2px;
+  width: 100px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.inputs .input {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.inputs .input img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.inputs .input input {
+  flex: 1;
+  padding: 5px;
+}
