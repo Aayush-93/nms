@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import "./index.css";
 
 const Platzi = () => {
   const [product, setProduct] = useState([]);
@@ -119,9 +120,18 @@ const Platzi = () => {
         />
         <br />
         <input type="file" placeholder="image" />
-        <button type="submit"> submit</button>
-        <button onClick={handlePut}> put</button>
+        <button className="submit" type="submit">
+          {" "}
+          submit
+        </button>
+        <button className="put" onClick={handlePut}>
+          {" "}
+          put
+        </button>
       </form>
+
+      {/* form */}
+
       <div
         style={{
           display: "flex",
